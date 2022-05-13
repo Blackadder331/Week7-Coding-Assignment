@@ -274,6 +274,11 @@ input[type=submit]:hover {
     align-items: center;
     justify-content: center;
     height: 400px;
+    /* center images */
+    background-size: cover;
+    background-position: center center;
+	background-repeat: no-repeat;
+	position: relative;
     
     /* Flex Fallback */
     margin-left: 5px;
@@ -287,7 +292,6 @@ input[type=submit]:hover {
       margin: 0;
     }
   }
-
 
 /* Mobile styles */
 
@@ -394,7 +398,11 @@ input[type=submit]:hover {
         align-items: center;
         justify-content: center;
         height: 200px;
-        
+        /* center images */
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
         /* Flex Fallback */
         margin-left: 5px;
         margin-right: 5px;
